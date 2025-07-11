@@ -4,11 +4,127 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CAR RENTAL SYSTEM</title>
-        <link rel="stylesheet" href="styles/pages/home-page.css">
+        <link rel="stylesheet" href="styles/variables.css">
+         <link rel="stylesheet" href="styles/components.css">
+        <link rel="stylesheet" href="styles/pages/index.css">
+       
     </head>
     <body>
         <div class="container">
-            <header></header>
+            <header>
+                <div class="header width-1">
+                    <nav>
+                        <div class="logo">
+                            <div class="icons">
+
+                                <!-- Person profile -->
+
+                                <!-- cart -->
+
+                                <!-- Search -->
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    height="24px"
+                                    viewBox="0 -960 960 960" width="24px"
+                                    fill="#000344"><path
+                                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" /></svg>
+
+                            </div>
+                            <div class="logo-center">
+                                <h1 class="logo-title">DriveRent</h1>
+                            </div>
+                            <div class="icons icons-2">
+
+                                <!-- Person profile -->
+                                <div class="free-trial-button">
+                                    <h1
+                                        class="whatsaapp-text free-trial-button">Free
+                                        trial</h1>
+                                </div>
+                                <!-- cart -->
+
+                                <!-- Search -->
+                                <svg class="search"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    height="24px" viewBox="0 -960 960 960"
+                                    width="24px"
+                                    fill="#000344"><path
+                                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" /></svg>
+
+                            </div>
+                        </div>
+                        <input type="checkbox" id="sidebar-active" />
+                        <label for="sidebar-active" class="open-sidebar-button">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 -960 960 960"
+                                width="24px"
+                                fill="#000344"
+                                class="menu-icon">
+                                <path
+                                    d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg>
+                        </label>
+
+                        <label id="overlay" for="sidebar-active"></label>
+                        <div class="links-container">
+                            <label for="sidebar-active"
+                                class="close-sidebar-button">
+                                <svg
+                                    class="close-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    height="24px"
+                                    viewBox="0 -960 960 960"
+                                    width="24px"
+                                    fill="#000344">
+                                    <path
+                                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                </svg>
+                            </label>
+
+                            <a class="home-link" href="index.html">Home</a>
+                            <a class="home-link" href="pricing.html">Pricing</a>
+                            <a class="home-link" href="contact-us.html">Contact Us</a>
+
+                        </div>
+
+                    </nav> <!-- Navbar -->
+                </div> <!-- header -->
+            </header>
+            <section class="hero-section">
+                <div class="hero-section-text">
+                    <h1 class="hero-section-title about-DriveRent-title">Drive
+                        Your Business Forward
+                        with DriveRent</h1>
+                    <p class="hero-section-text-text about-DriveRent-text">
+                        Simplify your car rental operations with our all-in-one
+                        SaaS platform.
+                        Manage bookings, fleet availability, and customer
+                        relationships effortlessly — all in real time.
+                    </p>
+                    <div class="hero-section-buttons">
+                        <div class="hero-section-demo-button">
+                            <h1 class="hero-section-demo-button-title">Request a
+                                Demo</h1>
+                        </div>
+                        <div class="hero-section-contact-us">
+                            <h1 class="hero-section-contact-us-title">Contact
+                                Us</h1></div>
+                    </div>
+                </div>
+                <div class="hero-section-image">
+                    <div class="hero-section-image-3">
+                        <img src="assets/images/image-3.png" alt>
+                    </div>
+                    <div class="hero-section-image-1">
+                        <img src="assets/images/image-1.webp" alt>
+                    </div>
+                    <div class="hero-section-image-2">
+                        <img src="assets/images/image-2.png" alt>
+                    </div>
+
+                </div>
+            </section>
             <section class="about-DriveRent">
                 <div class="about-icon"><div class="line"></div>
                     <h1 class="about-icon-title">ABOUT DriveRent
@@ -68,6 +184,48 @@
                     reservation system—make your customers happier and your
                     operations more efficient.</p>
             </section>
+            <section class="trusted-brands-section">
+                <h1 class="faq">Trusted by many</h1>
+                <h1 class="faq-title">+200 Rental companies and brokers have chosen DriveRentapp</h1>
+                <div class="trusted-brands-images">
+                    <div class="trusted-brands-image">
+                        <img src="assets/icons/1.png" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/2.webp" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/3.webp" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/4.webp" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/5.webp" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/6.webp" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/7.webp" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/8.webp" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/9.png" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/10.png" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/11.png" alt="">
+                    </div>
+                      <div class="trusted-brands-image">
+                        <img src="assets/icons/12.png" alt="">
+                    </div>
+                </div>
+            </section>
             <section class="faq-section">
                 <h1 class="faq">FAQ</h1>
                 <h1 class="faq-title">Question-answer</h1>
@@ -125,7 +283,8 @@
                             </div>
                             <div class="answer-design">
                                 <p class="answer-design-text">
-                                    DriveRent.app has a convenient import system.
+                                    DriveRent.app has a convenient import
+                                    system.
                                     But if you want, you can provide us with a
                                     database of your cars, your customers and
                                     your orders and we will quickly import it.
@@ -177,7 +336,8 @@
                             </div>
                             <div class="answer-design">
                                 <p class="answer-design-text">
-                                    DriveRent.app is the only management software
+                                    DriveRent.app is the only management
+                                    software
                                     on the market that allows you to have
                                     contracts in 9 languages ​​(Italian,
                                     English, French, Russian, Spanish, German,
@@ -190,24 +350,31 @@
 
                         <div class="question-design-answer">
                             <div class="question-design">
-                                <h1 class="question-title">Can I cancel my subscription at any time?</h1>
+                                <h1 class="question-title">Can I cancel my
+                                    subscription at any time?</h1>
                                 <span class="plus-icon">+</span>
                             </div>
                             <div class="answer-design">
                                 <p class="answer-design-text">
-                                    Yes, you can cancel every month or every year, depending on the subscription you choose.
+                                    Yes, you can cancel every month or every
+                                    year, depending on the subscription you
+                                    choose.
                                 </p>
                             </div>
                         </div>
 
                         <div class="question-design-answer">
                             <div class="question-design">
-                                <h1 class="question-title">Who will own the data?</h1>
+                                <h1 class="question-title">Who will own the
+                                    data?</h1>
                                 <span class="plus-icon">+</span>
                             </div>
                             <div class="answer-design">
                                 <p class="answer-design-text">
-                                    The data is owned by the customer. Upon termination, we will provide ALL DATA to the customer in a human readable format such as SQL or CSV.
+                                    The data is owned by the customer. Upon
+                                    termination, we will provide ALL DATA to the
+                                    customer in a human readable format such as
+                                    SQL or CSV.
 
                                 </p>
                             </div>
@@ -320,6 +487,6 @@
                     reserved</div>
             </footer>
         </div>
-
+        <script src="scripts/main.js"></script>
     </body>
 </html>

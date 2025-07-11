@@ -1,0 +1,26 @@
+:root {
+    --Primary-color: #000344;
+    --Secondary-color: #F05628;
+    --Background-color: #E9EFF9;
+
+    --black: black;
+    --blue: #0080E4;
+    --white: white;
+    --white-grey: #727272;
+
+
+
+    --black: #000000;
+    --white: #FFFFFF;
+    --price-before: #4D4D4D;
+    --promotion-border: #2BC3C6;
+    --promotion-background: #0DE9E9;
+    --container-2-background: #D3D3D3;
+    --products-title: #3C1818;
+    --space: #BFBFBF;
+    --contacts: #00DE34;
+    --header-background: linear-gradient(to top, #0E2E3E, #0B212A);
+    --products-background: linear-gradient(to top, #B8B8B8, #D6D6D6);
+    --collections-background: linear-gradient(to top, #0F2C3A, #1B5678);
+    --fotter-background: linear-gradient(to bottom, #0F2C3A, #1B5678);
+}
